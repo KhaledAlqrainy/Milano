@@ -1,0 +1,50 @@
+header {
+  background-color: grey
+}
+header img {
+  border-radius: 50%;
+  width: 150px;
+}
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+  text-align:center;
+  text-indent: 50px;
+}
+main {
+  background-color: lightgray
+}
+section h1 {
+  font-family: "Fantasy", Papyrus;
+
+  font-size: 50px
+}
+section p {
+  text-align: right;
+}
+section #f1 {
+  width: 400px;
+  height: 400px;
+}
+section #f2 {
+  width: 400px;
+  height: 400px;
+}
+section #f3 {
+  width: 400px;
+  height: 400px;
+}
+div h1 {
+  font-family: "Fantasy", Papyrus;
+}
+div #m1 {
+  width: 400px;
+  height: 400px;
+}
+div #m2 {
+  width: 400px;
+  height: 400px;
+}
+footer {
+  background-color: darkgray;
+}
