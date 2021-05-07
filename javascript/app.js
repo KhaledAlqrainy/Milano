@@ -26,5 +26,3 @@ for (var x=0; x < numbers ; x++){
   Image= Image + '<img src="https://i.pinimg.com/564x/94/ed/fe/94edfeeee0a0f8e77b492a8a9375e4f8.jpg">'
 }
 document.write(Image)
-=======
->>>>>>> 52202cba17c9ea4600e6929416e0b93309eb44a4
