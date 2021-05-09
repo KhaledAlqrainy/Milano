@@ -10,17 +10,26 @@ else {
   alert('you should pick between Male or Female')
 }
 
-var userold = prompt (' Please enter your age?')
-while (userold >=40 || userold <=19) {
-  // alert ('sorry we dont have items in this age')
+
+function userage()
+{
+  var userold = prompt (' Please enter your age?')
+  while (userold >=40 || userold <=19) {
   userold = prompt ('sorry we dont have items in this age please try again')
 }
+return userold
+}
+userage()
 document.write('Welcome :)')
 
-
+function shoesnumb() {
 var numbers = prompt ('How many shoes would you like to see')
 var Image = ''
 for (var x=0; x < numbers ; x++){
   Image= Image + '<img src="https://i.pinimg.com/564x/94/ed/fe/94edfeeee0a0f8e77b492a8a9375e4f8.jpg">'
 }
+return shoesnumb
+}
+shoesnumb()
+
 document.write(Image)
